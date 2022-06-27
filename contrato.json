@@ -1,0 +1,53 @@
+
+    // GET Product
+    [
+        {
+            "id*": "number",
+            "name*": "String",
+            "description*": "String",
+            "price*":"number",
+            "images*":"String",
+            "promotion":"Boolean",
+            "category*":{
+                "id*":"Number",
+                "name*":"String"
+            }
+            
+        }
+    ]
+
+    [
+        //GET User
+        {
+            "name*":"String",
+            "id*":"Number",
+            "email*":"String",
+            "password*":"String",
+            "type*":"Number"
+        }
+    
+    ]
+    
+    
+    //POST Product
+    [
+        {
+            "id":"Number",
+            "name*": "String",
+            "description*": "String",
+            "price*":"number",
+            "images*":"String",
+            "promotion":"Boolean",
+            "category*":{
+                "id*":"Number",
+            }
+            
+        }
+    ]
+
+
+//types:
+
+//-1 Admin
+//0-Guest("Não fazer Cadastro no Banco);
+//1-User
